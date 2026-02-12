@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    font-family:Poppins, sans-serif;
+    background:linear-gradient(135deg,#061a2b,#0a2e46);
+    color:white;
+    scroll-behavior:smooth;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 10%;
+    background:#021b2e;
+}
+
+nav a{
+    margin-left:20px;
+    color:#ccc;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#00e0ff;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px 10%;
+}
+
+.hero-img img{
+    width:280px;
+    border-radius:50%;
+    box-shadow:0 0 40px #00e0ff;
+}
+
+.section{
+    padding:60px 10%;
+    text-align:center;
+}
+
+.btn{
+    background:#00e0ff;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+.card{
+    background:#082c44;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+.hidden{
+    display:none;
+}
+
+.contact-info p{
+    margin:10px 0;
+}
+
+.message-box input,
+.message-box textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
